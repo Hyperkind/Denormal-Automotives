@@ -19,3 +19,9 @@
 --   year
 --   FROM car_models
 -- WHERE make_code = 'LAM';
+
+-- 8 Query to list all fields from all car_models in years between
+-- 2010 and 2015 (7884)
+SELECT *
+  FROM car_models
+WHERE year BETWEEN 2010 AND 2015;
