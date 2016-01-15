@@ -12,7 +12,7 @@
 -- WHERE make_code = 'VOLKS';
 
 -- 7 Query to list all make_code, model_code, model_title, year from car_models
--- where make_code is 'LAM' (136) got 272?
+-- where make_code is 'LAM' (136)
 -- SELECT make_code,
 --   model_code,
 --   model_title,
