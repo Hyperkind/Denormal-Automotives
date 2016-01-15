@@ -7,6 +7,15 @@
 
 -- 6 Query to list all model_title values where the make_code is 'VOLKS'
 -- without any duplicate rows (27)
-SELECT DISTINCT model_title
-  FROM car_models
-WHERE make_code = 'VOLKS';
+-- SELECT DISTINCT model_title
+--   FROM car_models
+-- WHERE make_code = 'VOLKS';
+
+-- 7 Query to list all make_code, model_code, model_title, year from car_models
+-- where make_code is 'LAM' (136) got 272?
+-- SELECT make_code,
+--   model_code,
+--   model_title,
+--   year
+--   FROM car_models
+-- WHERE make_code = 'LAM';
