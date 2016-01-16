@@ -50,3 +50,8 @@ INSERT INTO normal_cars (make, model)
   SELECT make.id, model.id
   FROM model
     INNER JOIN make ON (make.id = model.make_id);
+
+-- 7
+SELECT *
+  FROM make;
+
